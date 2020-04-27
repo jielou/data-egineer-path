@@ -177,3 +177,53 @@ case ''
  DEFAULT COMMAND;; # if no patterns match
  esac #exit
  ```
+
+## Basic functions
+```bash
+function func_name(){
+    # func_code
+    return # something
+}
+func_name # call the function
+```
+### arguments
+
+- $1, $2 positional arguments
+- $@, $* all the arguments in ARGV
+- $#: number of arguments
+
+### scope
+
+- "Global": accessible anywhere in the program
+- "local": only accessilbe in a certain part of the program. keyword `local`
+
+**note**
+
+All variables in Bash are global by defaul
+
+### return
+
+- reutn is only menat to determine if the function succeede or failed.
+
+- echo the results back and capture using shell-within-a-shell
+
+```bash
+function error{
+    eshf # error
+}
+error
+echo $? # print the return value
+```
+## schduling your program
+
+cron
+
+- crontab -l: list schedules
+
+- *****(minute, hour, day of the month, month, day of the week)
+
+```bash
+# run at 1:05 am every Saturday and Sunday
+5 1 * * 6,7 bash myscript.sh
+```
+- crontab -d: edit your list of cronjobs
