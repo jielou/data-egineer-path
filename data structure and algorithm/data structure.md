@@ -30,4 +30,4 @@ dequeue: remove element in the front
 
 python implementation: deque library
 
-application: load things
+application: load things 
