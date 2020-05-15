@@ -1,3 +1,4 @@
+# master command
 def outer_func(x):
     y = 4
     def inner_func(z):
