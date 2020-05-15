@@ -1,3 +1,4 @@
+# dev command
 def outer_func(x):
     y = 4
     def inner_func(z):
@@ -8,4 +9,3 @@ def outer_func(x):
 for i in range(3):
     closure = outer_func(i)
     print(f"closure({i+5}) = {closure(i+5)}")
-    
