@@ -1,3 +1,9 @@
+---
+noteId: "cf2b395096a811ea9e7f53bbf66be716"
+tags: []
+
+---
+
 # virtual environment
 
 https://realpython.com/python-virtual-environments-a-primer/

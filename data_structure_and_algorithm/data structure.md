@@ -1,3 +1,9 @@
+---
+noteId: "d7538ab096a811ea9e7f53bbf66be716"
+tags: []
+
+---
+
 # data structure
 
 ## 1. Linked List

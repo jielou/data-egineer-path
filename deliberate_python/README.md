@@ -8,4 +8,6 @@ tags: []
 
 the agenda of deliberate practice in Python
 
-5/11 read_file, threading
+5/11 read files, threading
+5/14 intro git, VS code, Unit test
+5/15 advanced git

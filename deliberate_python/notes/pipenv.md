@@ -1,3 +1,9 @@
+---
+noteId: "cf2a9d1096a811ea9e7f53bbf66be716"
+tags: []
+
+---
+
 # pipenv
 
 https://realpython.com/pipenv-guide/
