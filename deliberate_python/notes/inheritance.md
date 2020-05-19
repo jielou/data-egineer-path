@@ -12,6 +12,32 @@ tags: []
 reference: 
 - [Intro to oop in python]()
 - [super()](https://realpython.com/python-super/)
+- [OOP guide] (https://realpython.com/inheritance-composition-python/)
+
+
+## Unifired Modeling Language (UML)
+
+a standardized way to view the design of a system
+
+## inheritance
+what common attributes and behaviors exist between real-world objects?
+
+- is-a relationship
+- liskov substitution principle: in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desired properties of the program
+
+
+## composition
+how are objects in the real world composed of one another?
+
+- has-a relationship
+
+## interface
+
+a description of the features and behaviors an object has
+
+- python does not have actual mechanisms called interfaces. instead conceptual idea.
+
+
 
 ## Super()
 

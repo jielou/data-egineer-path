@@ -14,3 +14,4 @@ the agenda of deliberate practice in Python
 - [x] 5/16 multi-threading 1, is_equal
 - [x] 5/18 inheritance 1, main function
 - [x] 5/19 inheritance 2, multi-threading 2
+- [ ] 5/20 command line, subprocess, @property
