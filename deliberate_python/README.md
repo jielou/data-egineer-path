@@ -8,8 +8,9 @@ tags: []
 
 the agenda of deliberate practice in Python
 
-5/11 read files, threading
-5/14 intro git, VS code, Unit test
-5/15 advanced git
-5/16 multi-threading, is_equal
-5/18 inheritance 1, main function
+- [x] 5/11 read files, threading
+- [x] 5/14 intro git, VS code, Unit test
+- [x] 5/15 advanced git
+- [x] 5/16 multi-threading, is_equal
+- [x] 5/18 inheritance 1, main function
+- [x] 5/19 inheritance 2
