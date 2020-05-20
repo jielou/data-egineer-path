@@ -48,6 +48,20 @@ a description of the features and behaviors an object has
 when a class inherits two classes, if its inherited method from parents have different signatures, how Python decide which method to use?
 
 **Method Resolution Order**
+- `class.__mro__` tells you how Python decide the interitance order
+- Python 3 uses C3 Linearization to generate MRO
+- the first class in the inearization is itself
+- In the employee system (in oop folder): 
+    - L(E) = [E]
+    - L(SE) = [SE] + merge(L(E), [E]) = [SE]+merge([E], [E]) = [SE, E]
+    - L(HE) = [HE, E]
+    - L(S) = [S] + merge(L(SE), [SE]) = [S]+merge([SE, E], [SE])=[S, SE,E]
+    - L(TS) = [TS] +merge(L(S), L(HE), [S,HE]) = [TS]+merge([S,SE,E], [HE,E], [S,HE])=[TS,S]+merge([SE,E],[HE,E],[HE])=[TS,S,SE]+merge([SE,E],[HE,E],[HE])=[TS,S,SE,HE]+merge([E],[E])=[TS,S,SE,HE,E]
+
+
+**The Diamond Problem**
+- when class inherits from two or more classes, each of which inherits from a common class.
+- better to rethink the class hierarchies 
 
 ## mixin
 
