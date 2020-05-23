@@ -1,8 +1,3 @@
----
-noteId: "39bea7e098ff11ea8b572b6747d84cb1"
-tags: []
-
----
 # inheritance
 
 5.18
@@ -10,9 +5,9 @@ tags: []
 ## Intro
 
 reference: 
-- [Intro to oop in python]()
+- [Intro to oop in python](https://realpython.com/python3-object-oriented-programming/)
 - [super()](https://realpython.com/python-super/)
-- [OOP guide] (https://realpython.com/inheritance-composition-python/)
+- [OOP guide](https://realpython.com/inheritance-composition-python/)
 
 
 ## Unifired Modeling Language (UML)
@@ -24,6 +19,22 @@ what common attributes and behaviors exist between real-world objects?
 
 - is-a relationship
 - liskov substitution principle: in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desired properties of the program
+
+### inheritance best practices
+
+- follow Liskov Substitution Principle
+- Exception types must inherit from BaseException
+- Use inheritance only if the relationship works in one direction
+
+### mixins
+- provides only methods to classes that dervie from it
+- not considered a base class
+    - does not follow the is-a relationship
+    - only interit from a Mixint o utilize one or more of its method
+
+### factory method
+
+- a class contains a method for constructing an object with the correct parametersx
 
 
 ## composition
@@ -67,3 +78,20 @@ when a class inherits two classes, if its inherited method from parents have dif
 
 - `class Manager(Employee, Payroll)` tells python to first search method in Employee class and then Payroll class.
 - `Manager.__mro__` to inspect the order
+
+## composition vs. inheritance
+
+- inherirance: tightly-coupled relationship
+- composition: loosely-coupled relationship
+- some guidelines:
+    - use inheritance over composition in python to a clear is-a relationship
+    - use inheritance for interface and implementation of the base class
+    - use inheritance to mixin features
+    - use composition for has-a relationship of the component class
+    - use composition to create components that can be reused by multiple classes
+    - use composition to enable run-time behavior changes
+
+## last word
+- don't fear failure
+- practice makes perfect
+- plan out a project as best you can and see how far your design takes you.
