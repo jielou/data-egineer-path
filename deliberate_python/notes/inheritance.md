@@ -8,8 +8,9 @@ reference:
 - [Intro to oop in python](https://realpython.com/python3-object-oriented-programming/)
 - [super()](https://realpython.com/python-super/)
 - [OOP guide](https://realpython.com/inheritance-composition-python/)
-
-
+- [must-read MRO](http://python-history.blogspot.com/2010/06/method-resolution-order.html)
+- [must-read super](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+- [init](https://stackoverflow.com/questions/9575409/calling-parent-class-init-with-multiple-inheritance-whats-the-right-way)
 ## Unifired Modeling Language (UML)
 
 a standardized way to view the design of a system
