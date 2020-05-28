@@ -1,9 +1,3 @@
----
-noteId: "cbdf7350937f11eab318d55bc3e6e734"
-tags: []
-
----
-
 # Deliberate Python
 
 the agenda of deliberate practice in Python
@@ -17,3 +11,4 @@ the agenda of deliberate practice in Python
 - [x] 5/20 inheritance 3
 - [x] 5/25 command line, subprocess, @property, imports
 - [x] 5/26 interface, context manager, named tuple
+- [x] 5/27 function overloading, factory method
