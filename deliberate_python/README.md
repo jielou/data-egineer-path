@@ -2,6 +2,7 @@
 
 the agenda of deliberate practice in Python
 
+## sprint learning 1
 - [x] 5/11 read files, threading
 - [x] 5/14 intro git, VS code, Unit test
 - [x] 5/15 advanced git
@@ -12,3 +13,9 @@ the agenda of deliberate practice in Python
 - [x] 5/25 command line, subprocess, @property, imports
 - [x] 5/26 interface, context manager, named tuple
 - [x] 5/27 function overloading, factory method
+
+## sprint learning 2
+- [x] iterator, generator
+- [x] cpython
+- [x] Async IO, concurrency
+- [x] logging
