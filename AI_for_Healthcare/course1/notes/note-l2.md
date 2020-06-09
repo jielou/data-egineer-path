@@ -1,9 +1,3 @@
----
-noteId: "5a98b310a98611ea9a2347eb31c960da"
-tags: []
-
----
-
 # 2D Medical Imaging Exploratory Data Analysis
 
 ## Resources
