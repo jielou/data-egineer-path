@@ -1,3 +1,10 @@
+---
+noteId: "898f64a1ab5411eaa655bf1f234e3db2"
+tags: []
+
+---
+
+
 # classifiction Models for 2D Medical Imaging
 
 ## resources

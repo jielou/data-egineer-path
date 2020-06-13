@@ -1,3 +1,9 @@
+---
+noteId: "898f3d90ab5411eaa655bf1f234e3db2"
+tags: []
+
+---
+
 # Intro to AI for 2D Medical Imaging
 
 ## resources
