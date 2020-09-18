@@ -28,7 +28,7 @@ def move_zeros(a_list):
             a_list[left] = a_list[right]
             left+=1
         right+=1
-    while left<right:
+    while left<=right:
         a_list[left]=0
         left+=1
 
